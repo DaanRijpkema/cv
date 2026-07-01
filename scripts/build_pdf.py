@@ -26,6 +26,8 @@ from reportlab.platypus import (
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 STRONG_RE = re.compile(r"\*\*([^*]+)\*\*")
 EM_RE = re.compile(r"(?<!\*)\*([^*]+)\*(?!\*)")
+HTML_COMMENT_RE = re.compile(r"<!--.*?-->", re.DOTALL)
+TODO_RE = re.compile(r"^\s*(?:[-*]\s*)?(?:\[TODO:.*\]|TODO\b.*)$", re.IGNORECASE)
 
 
 def markdown_inline_to_reportlab(text: str) -> str:
@@ -45,6 +47,14 @@ def markdown_inline_to_reportlab(text: str) -> str:
     converted = STRONG_RE.sub(r"<b>\1</b>", converted)
     converted = EM_RE.sub(r"<i>\1</i>", converted)
     return converted
+
+
+def strip_ignored_notes(markdown: str) -> str:
+    """Remove drafting notes that should never appear in the PDF."""
+    without_comments = HTML_COMMENT_RE.sub("", markdown)
+    return "\n".join(
+        line for line in without_comments.splitlines() if not TODO_RE.match(line)
+    )
 
 
 def iter_blocks(markdown: str) -> Iterable[tuple[str, str | list[str]]]:
@@ -67,7 +77,7 @@ def iter_blocks(markdown: str) -> Iterable[tuple[str, str | list[str]]]:
         bullets = []
         return ("bullets", items)
 
-    for raw_line in markdown.splitlines():
+    for raw_line in strip_ignored_notes(markdown).splitlines():
         line = raw_line.rstrip()
         stripped = line.strip()
 

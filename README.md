@@ -22,5 +22,11 @@ The PDF builder intentionally supports only a small subset:
 - Markdown links
 - bold and italic inline text
 
+Drafting notes are ignored when building the PDF:
+
+- HTML comments, including multi-line `<!-- ... -->` comments
+- lines that start with `TODO`
+- bullet lines like `- [TODO: add metric]`
+
 Visual styling lives in `scripts/build_pdf.py`; content and structure should stay in
 `cv.md`.
