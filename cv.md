@@ -6,14 +6,14 @@ Utrecht, Netherlands | [info@daanrijpkema.com](mailto:info@daanrijpkema.com) | +
 
 ## Summary
 
-Senior Software Engineer with 10+ years of experience designing and building backend, full-stack, and cloud-native systems across e-commerce, SaaS, and product-facing environments. Strong background in PHP, TypeScript, Java, AWS, GraphQL, testing, and scalable software architecture. Combines hands-on engineering with product ownership, mentoring, and a founder's mindset from building and operating a SaaS platform used by 60+ organizations and businesses.
+Senior Software Engineer with 10+ years of experience designing and building backend, full-stack, and cloud-native systems across large-scale e-commerce, SaaS, and product-facing environments. Strong background in PHP, TypeScript, Java, AWS, GraphQL, REST APIs, event-driven architecture, testing, observability, and scalable software architecture. Combines hands-on engineering with product ownership, mentoring, and a founder's mindset from building and operating a SaaS platform used by 60+ organizations and businesses.
 
 ## Selected Highlights
 
 - 10+ years of professional software development experience across backend, full-stack, SaaS, and cloud-native systems.
-- Senior Backend Developer at Coolblue, working on product management, catalog, search/filter, advisory, and product-page systems.
+- Senior Backend Developer at Coolblue, working on product management, catalog, navigation, search/filter, advisory, and product-page systems.
 - Founder of Codex, a SaaS platform used by 60+ organizations and businesses across four Dutch cities.
-- Hands-on experience with PHP, TypeScript, Java, AWS CDK, Lambda, S3, DynamoDB, RDS, GraphQL, TDD, CI/CD, and software architecture.
+- Hands-on experience with PHP, TypeScript, Java, AWS CDK, Lambda, API Gateway, S3, SQS/SNS, DynamoDB, RDS/Aurora MySQL, GraphQL, REST, TDD, CI/CD, and software architecture.
 - Former Google Business Associate Intern focused on fraud detection, anti-abuse strategies, data analysis, and product policy.
 - Experienced mentor, coach, and technical contributor in product-oriented engineering environments.
 
@@ -23,11 +23,13 @@ Senior Software Engineer with 10+ years of experience designing and building bac
 
 Senior | February 2022 - Present | Netherlands | [coolblue.nl](https://coolblue.nl)
 
-- Build and scale backend services for product management, catalog, search/filter, advisory, and product-page domains in a large Dutch e-commerce environment.
-- Develop cloud-native systems using AWS CDK, Lambda, S3, DynamoDB, RDS, and related infrastructure.
+- Build and scale backend services for product management, product catalog, navigation, search/filtering, advisory customer journeys, and product-page domains in a large Dutch e-commerce environment.
+- Develop cloud-native systems using AWS CDK, Lambda, API Gateway, S3, SQS/SNS, DynamoDB, RDS/Aurora MySQL, RDS Proxy, Redis/ElastiCache, OpenSearch, and related infrastructure.
+- Design and maintain API and distributed-system boundaries across GraphQL, Apollo Federation/Supergraph patterns, REST APIs, event-driven architecture, and queue-based processing.
+- Work with data-intensive systems involving MySQL/Aurora, DynamoDB, Redis, OpenSearch, AWS DMS, read models/projections, and migration reliability.
 - Work across PHP, TypeScript, and Java codebases, with a strong focus on maintainability, testing, and operational reliability.
-- Apply TDD and automated testing as part of everyday product development and long-term codebase quality.
-- Contribute to architecture, engineering standards, and process improvements from the senior engineering competency.
+- Apply TDD, integration & acceptance testing, load testing with k6, Datadog / OTEL observability, production diagnostics, CI/CD, and Docker-based local development workflows.
+- Contribute to architecture, design discussions, engineering standards, and pragmatic process improvements from the senior engineering competency.
 - Mentor colleagues through code review, technical coaching, knowledge sharing, and pragmatic engineering practices.
 - [TODO: add 1-3 concrete achievements, such as a migration, performance improvement, reliability improvement, cost reduction, team/process improvement, product impact, or scale metric.]
 
@@ -61,10 +63,10 @@ June 2014 - September 2014
 ## Technical Skills
 
 - Languages: PHP, TypeScript, Java, Python
-- Backend & APIs: GraphQL, serverless architectures, product/catalog systems, automation
-- Cloud & Infrastructure: AWS, CDK, Lambda, S3, DynamoDB, RDS, Docker, Linux, CI/CD
-- Databases: MySQL, PostgreSQL, DynamoDB, Cassandra
-- Engineering Practices: TDD, automated testing, software architecture, code review, mentoring, process improvement
+- Backend & APIs: GraphQL, Apollo Federation/Supergraph patterns, REST APIs, serverless architectures, event-driven systems, queue-based processing, service boundaries, product/catalog systems
+- Cloud & Infrastructure: AWS, CDK, Lambda, API Gateway, S3, SQS/SNS, DynamoDB, RDS/Aurora MySQL, RDS Proxy, Redis/ElastiCache, OpenSearch, CloudFront, Docker, Linux, CI/CD
+- Data & Search: MySQL, PostgreSQL, DynamoDB, Redis, OpenSearch/Elasticsearch, Cassandra, AWS DMS, read models/projections
+- Engineering Practices: TDD, integration testing, load testing, k6, Datadog, observability, production diagnostics, software architecture, code review, mentoring, process improvement
 - Additional: functional programming with Haskell and Scala, data analysis with Python and Julia, cybersecurity, automation
 
 ## Education
@@ -78,7 +80,7 @@ September 2011 - September 2015
 
 ### MSc Artificial Intelligence - Utrecht University
 
-September 2017 - February 2019 | thesis phase paused
+September 2017 - February 2019 | coursework completed; thesis not completed
 
 - Completed MSc-level coursework and paused during the thesis phase.
 
