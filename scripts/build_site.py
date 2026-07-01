@@ -23,23 +23,22 @@ def build_site(
     output_dir.mkdir(parents=True, exist_ok=True)
 
     markdown = strip_ignored_notes(markdown_path.read_text(encoding="utf-8")).strip()
-    index = "\n".join(
-        [
-            "---",
-            "layout: default",
-            "title: Daan Rijpkema CV",
-            "---",
-            "",
-            f"[Download PDF]({site_pdf_name})",
-            "",
-            markdown,
-            "",
-        ]
-    )
-    (output_dir / "index.md").write_text(index, encoding="utf-8")
-
+    pdf_available = pdf_path.exists()
     if pdf_path.exists():
         shutil.copyfile(pdf_path, output_dir / site_pdf_name)
+
+    header = [
+        "---",
+        "layout: default",
+        "title: Daan Rijpkema CV",
+        "---",
+        "",
+    ]
+    if pdf_available:
+        header.extend([f"[Download PDF]({site_pdf_name})", ""])
+
+    index = "\n".join([*header, markdown, ""])
+    (output_dir / "index.md").write_text(index, encoding="utf-8")
 
 
 def main() -> None:
