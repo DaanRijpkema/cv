@@ -6,21 +6,39 @@ from __future__ import annotations
 import argparse
 import html
 import re
+import sys
+
+sys.dont_write_bytecode = True
+
 from pathlib import Path
 from typing import Iterable
 
-from reportlab.lib import colors
-from reportlab.lib.enums import TA_CENTER, TA_LEFT
-from reportlab.lib.pagesizes import A4
-from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
-from reportlab.lib.units import mm
-from reportlab.platypus import (
-    HRFlowable,
-    ListFlowable,
-    ListItem,
-    Paragraph,
-    SimpleDocTemplate,
-)
+try:
+    from reportlab.lib import colors
+    from reportlab.lib.enums import TA_CENTER, TA_LEFT
+    from reportlab.lib.pagesizes import A4
+    from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+    from reportlab.lib.units import mm
+    from reportlab.platypus import (
+        HRFlowable,
+        ListFlowable,
+        ListItem,
+        Paragraph,
+        SimpleDocTemplate,
+    )
+except ModuleNotFoundError as error:
+    if error.name != "reportlab":
+        raise
+    print(
+        "Missing Python dependency: reportlab\n\n"
+        "Set up a local virtual environment once, then rerun the builder:\n\n"
+        "  python3 -m venv .venv\n"
+        "  source .venv/bin/activate\n"
+        "  python -m pip install -r requirements.txt\n"
+        "  python scripts/build_pdf.py\n",
+        file=sys.stderr,
+    )
+    raise SystemExit(1) from error
 
 
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
@@ -307,8 +325,8 @@ def main() -> None:
         "-o",
         "--output",
         type=Path,
-        default=Path("output/pdf/daan-rijpkema-cv.pdf"),
-        help="PDF output path. Defaults to output/pdf/daan-rijpkema-cv.pdf.",
+        default=Path("output/daan-rijpkema-cv.pdf"),
+        help="PDF output path. Defaults to output/daan-rijpkema-cv.pdf.",
     )
     args = parser.parse_args()
 

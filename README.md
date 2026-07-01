@@ -3,13 +3,21 @@
 The Markdown file is the source of truth:
 
 ```bash
-python3 scripts/build_pdf.py
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+Then build the PDF:
+
+```bash
+python scripts/build_pdf.py
 ```
 
 That writes:
 
 ```text
-output/pdf/daan-rijpkema-cv.pdf
+output/daan-rijpkema-cv.pdf
 ```
 
 ## Supported Markdown
