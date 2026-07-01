@@ -20,7 +20,6 @@ from reportlab.platypus import (
     ListItem,
     Paragraph,
     SimpleDocTemplate,
-    Spacer,
 )
 
 
