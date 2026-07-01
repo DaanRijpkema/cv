@@ -1,70 +1,95 @@
+# Daan Rijpkema
 
+Senior Software Engineer
+Backend | Cloud | Product Engineering | Architecture
+Utrecht, Netherlands | [info@daanrijpkema.com](mailto:info@daanrijpkema.com) | +31 (0)6 81 56 86 99 | [LinkedIn](https://linkedin.com/in/daanrijpkema/)
 
-| Daan Rijpkema Senior Full-Stack Developer with 10+ years of experience in PHP, TypeScript, and cloud-native solutions. Passionate about scalable architecture, clean code automation, and mentoring teams. | Curriculum Vitae      Email [info@daanrijpkema.com](mailto:info@daanrijpkema.com)L[inkedin.com/in/daanrijpkema/](http://linkedin.com/in/daanrijpkema/)Phone \+31 (0)6 81 56 86 99 |
-| :---- | ----: |
+## Summary
 
-# ---
+Senior Software Engineer with 10+ years of experience designing and building backend, full-stack, and cloud-native systems across e-commerce, SaaS, and product-facing environments. Strong background in PHP, TypeScript, Java, AWS, GraphQL, testing, and scalable software architecture. Combines hands-on engineering with product ownership, mentoring, and a founder's mindset from building and operating a SaaS platform used by 60+ organizations and businesses.
 
-# **Activities**
+## Selected Highlights
 
-* Senior Backend Developer, Coolblue
+- 10+ years of professional software development experience across backend, full-stack, SaaS, and cloud-native systems.
+- Senior Backend Developer at Coolblue, working on product management, catalog, search/filter, advisory, and product-page systems.
+- Founder of Codex, a SaaS platform used by 60+ organizations and businesses across four Dutch cities.
+- Hands-on experience with PHP, TypeScript, Java, AWS CDK, Lambda, S3, DynamoDB, RDS, GraphQL, TDD, CI/CD, and software architecture.
+- Former Google Business Associate Intern focused on fraud detection, anti-abuse strategies, data analysis, and product policy.
+- Experienced mentor, coach, and technical contributor in product-oriented engineering environments.
 
-   Senior · february 2022 \- Present · [https://coolblue.nl](https://coolblue.nl)   
-Developing and scaling software for the Product Management domain, building critical elements for the catalog, filter, search, advisory and product pages in this leading Dutch E-commerce company. Utilizing AWS infrastructure with a focus on CDK, Lambda, S3, DynamoDB, RDS and more. Working with languages such as PHP, Typescript and Java. Working extensively with TDD and tests as a crucial aspect of the product life cycle. Sharing knowledge, coaching and improving processes from the senior competency.
+## Professional Experience
 
-* Entrepreneur and Founder, Codex by Styx Software  
-  Founder of sole proprietorship · December 2013 \- February 2025 ·  As founder of Codex, I developed a comprehensive web administration and analytics SaaS platform for small to medium-sized student organizations, integrating CMS, ERP, HR, and CRM systems with third-party services. At its peak, Codex supported over sixty  businesses and associations across four Dutch cities, streamlining administrative processes for thousands of students by automating redundant tasks.  
-* Freelance Graphic-, Web and App Designer and Developer  
-  September 2008 \- present  
-* DJ and electronic music producer (freelance) \- artist name “Djenga”
+### Senior Backend Developer - Coolblue
 
-2018 \- Present · Started as a hobby project turned into a new ambition to become a resident DJ in clubs and bars in Utrecht and build my way from there. Playing and creating electronic music, primarily melodic deep house getting close to techno with tribal, percussive and dream-like elements. 
+Senior | February 2022 - Present | Netherlands | [coolblue.nl](https://coolblue.nl)
 
-* Team Captain and Founder \- Think Tank \- Enactus Utrecht
+- Build and scale backend services for product management, catalog, search/filter, advisory, and product-page domains in a large Dutch e-commerce environment.
+- Develop cloud-native systems using AWS CDK, Lambda, S3, DynamoDB, RDS, and related infrastructure.
+- Work across PHP, TypeScript, and Java codebases, with a strong focus on maintainability, testing, and operational reliability.
+- Apply TDD and automated testing as part of everyday product development and long-term codebase quality.
+- Contribute to architecture, engineering standards, and process improvements from the senior engineering competency.
+- Mentor colleagues through code review, technical coaching, knowledge sharing, and pragmatic engineering practices.
+- [TODO: add 1-3 concrete achievements, such as a migration, performance improvement, reliability improvement, cost reduction, team/process improvement, product impact, or scale metric.]
 
-September 2015 \- October 2016 · Primary responsibility: leading a team of creative minds in devising new social enterprises, tasked with creating two new ventures in addition to providing strategic consultancy and coaching to five existing ventures and the Enactus Utrecht board.
+### Founder - Codex by Styx Software
 
-* Product Quality Operations \- Business Associate Intern \- Google
+Founder, sole proprietorship | December 2013 - February 2025
 
-June 2014 \- September 2014 · As a Business Associate Intern at Google, I developed fraud detection and anti-abuse strategies, analyzed datasets to enhance fraud prevention, and helped define and communicate product policies. Additionally, I organized a Meetup and received a Teacher Award and multiple Peer Bonuses for supporting fellow Googlers with data analysis and programming.
+- Founded and built Codex, a web-based administration and analytics SaaS platform for student organizations, associations, and small-to-medium businesses.
+- Designed and developed integrated CMS, ERP, HR, CRM, and analytics functionality with third-party service integrations.
+- Scaled the platform to 60+ businesses and associations across four Dutch cities, supporting administrative workflows for thousands of students.
+- Owned the full product lifecycle: discovery, development, infrastructure, support, customer onboarding, and long-term maintenance.
+- Automated repetitive administrative processes and improved reporting, membership, finance, and operational workflows.
+- [TODO: add core technology stack if accurate, e.g. PHP, MySQL, JavaScript, Linux, hosting/infrastructure, or payment/email integrations.]
 
-* Executive Board and Active Member \- Study Association Sticky  
-  Primary responsibility: Secretary · Utrecht · September 2012 \- September 2013 \- As a founding board member and Secretary of Studievereniging Sticky, I managed communications, facilitated large-scale events like study trips and congresses, and engaged with internal members, external partners, and affiliated associations. I also led alumni innovation efforts, developing policies and new initiatives for graduates. Additionally, I designed and developed StickyPay, a contactless payment system using RFID/NFC for food and drinks, and StickyAdmin, an internal PHP-based administration system that automated workflows, digitized processes, and improved statistics generation.   
-  I also worked in 6 commissions from 2011  to 2015: I founded and organized two editions of the Indievelopment conference, growing attendance from 140 to 440 visitors and managing budgets of €13,000 to €20,000. I handled public relations, ticket sales, infrastructure, and the website while overseeing the event as a supervisor. Additionally, I led the Website and PR Commission, managing technical development, Linux server and website maintenance for over a year, while also heading a five-person PR team to design all internal and external publicity materials.  
-* Volunteer at Poppodium EKKO  
-  September 2016 \- Present   
-  Serving as a volunteer bartender in EKKO, an alternative/indie/rock/disco/funk concert venue in the centre of Utrecht
+### Freelance Software Developer / Product Engineer
 
----
+September 2008 - Present
 
-**Education and related experience**
+- Built websites, web applications, automation tools, and digital products for independent clients.
+- Combined software engineering, UX/design, client communication, and delivery ownership from concept through maintenance.
+- [TODO: add 1-2 representative projects, client types, technologies, or measurable outcomes.]
 
-* MSc. Artificial Intelligence (thesis phase)
+### Business Associate Intern, Product Quality Operations - Google
 
-   On hold, Utrecht University · September 2017 \- Feb 2019
+June 2014 - September 2014
 
-* BSc. (Bachelor of Science) · Computer Science  
-  Utrecht University · September 2011 \- September 2015 \- Coach and Analytics Developer at ASIO Software \- Final year project to run a virtual software company with a team of 8, developing a new electronic "Digital Learn and Work Environment" (like Blackboard). We created a modular platform that integrates with third-party services and implements 'Blended Learning' principles. I was coaching the team members, leading meetings and focusing on Learning Analytics.  
-* Maartenscollege  
-  Middle school · September 2005 \- July 2011 \- Completed Bilingual VWO Education with a Beta Award for top performance in Physics, Mathematics, and Chemistry. Achieved near-native English proficiency through the IB Fast Lane English program (final grade: 6/7). Led the organization of a 230-person prom with a €4,000 budget and independently designed and printed a 240-page yearbook (250 copies). For the final research project, studied program correctness and logic in Object-Oriented programming, earning a 7/10.
+- Developed fraud detection and anti-abuse strategies using data analysis and product-policy evaluation.
+- Analyzed datasets to improve fraud prevention, policy decisions, and operational understanding.
+- Organized a technical/data-focused meetup and received internal recognition for supporting colleagues with data analysis and programming.
 
----
+## Technical Skills
 
-**Personal Information**
+- Languages: PHP, TypeScript, Java, Python
+- Backend & APIs: GraphQL, serverless architectures, product/catalog systems, automation
+- Cloud & Infrastructure: AWS, CDK, Lambda, S3, DynamoDB, RDS, Docker, Linux, CI/CD
+- Databases: MySQL, PostgreSQL, DynamoDB, Cassandra
+- Engineering Practices: TDD, automated testing, software architecture, code review, mentoring, process improvement
+- Additional: functional programming with Haskell and Scala, data analysis with Python and Julia, cybersecurity, automation
 
-* Location: Utrecht, Netherlands  
-* Date of Birth: September 11, 1992 (Groningen)  
-* Driver’s License: Category B (since 2011\)
+## Education
 
-**Technical Skills**
+### BSc Computer Science - Utrecht University
 
-* Programming Languages: PHP, TypeScript, Java, Python  
-* Cloud & DevOps: AWS (CDK, Lambda, S3, DynamoDB, RDS), Docker, Linux  
-* Databases: MySQL, PostgreSQL, DynamoDB, Cassandra (NoSQL)  
-* Other: GraphQL, TDD, CI/CD, Software Architecture  
-* Additional: Functional programming (Haskell, Scala), Data analysis (Python, Julia)
+September 2011 - September 2015
 
-**Interests**
+- Completed a final-year virtual software company project with an eight-person team, building a modular digital learning and work environment with third-party integrations and blended-learning functionality.
+- Worked as coach and analytics developer, leading meetings, supporting team members, and focusing on learning analytics.
 
-Building scalable systems, functional programming, data analysis, cybersecurity, and automation. Outside of tech: electronic music production, endurance sports (triathlons, cycling), yoga, writing, and chess.
+### MSc Artificial Intelligence - Utrecht University
 
+September 2017 - February 2019 | thesis phase paused
+
+- Completed MSc-level coursework and paused during the thesis phase.
+
+## Community & Leadership
+
+- Founding board member and Secretary of Study Association Sticky; led communications, events, alumni initiatives, and internal tooling.
+- Designed and developed StickyPay, an RFID/NFC payment system, and StickyAdmin, a PHP-based administration system that digitized internal workflows.
+- Founded and organized the Indievelopment conference, growing attendance from 140 to 440 visitors and managing budgets up to EUR20,000.
+- Team Captain and Founder of the Enactus Utrecht Think Tank; led a creative team developing social enterprise concepts and advising existing ventures.
+- Volunteer bartender at Poppodium EKKO, an alternative music venue in Utrecht.
+
+## Interests
+
+Electronic music production and DJing, endurance sports, cycling, yoga, writing, and chess.
