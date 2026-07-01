@@ -1,21 +1,19 @@
 # Daan Rijpkema
 
 Senior Software Engineer
-Backend | Cloud | Product Engineering | Architecture
-Utrecht, Netherlands | [info@daanrijpkema.com](mailto:info@daanrijpkema.com) | +31 (0)6 81 56 86 99 | [LinkedIn](https://linkedin.com/in/daanrijpkema/)
+Large-scale e-commerce | SaaS founder | Cloud-native backend | Technical mentoring
+Utrecht, Netherlands | [daanrijpkema@proton.me](mailto:daanrijpkema@proton.me) | +31 (0)6 81 56 86 99 | [LinkedIn](https://linkedin.com/in/daanrijpkema/)
 
 ## Summary
 
-Senior Software Engineer with 10+ years of experience designing and building backend, full-stack, and cloud-native systems across large-scale e-commerce, SaaS, and product-facing environments. Strong background in PHP, TypeScript, Java, AWS, GraphQL, REST APIs, event-driven architecture, testing, observability, and scalable software architecture. Combines hands-on engineering with product ownership, mentoring, and a founder's mindset from building and operating a SaaS platform used by 60+ organizations and businesses.
+Product-minded Senior Software Engineer with 10+ years of experience building backend, full-stack, and cloud-native systems across large-scale e-commerce, SaaS, and customer-facing product environments. I build product platforms where backend architecture, customer workflows, and team maturity meet.
 
-## Selected Highlights
+## Engineering Profile
 
-- 10+ years of professional software development experience across backend, full-stack, SaaS, and cloud-native systems.
-- Senior Backend Developer at Coolblue, working on product management, catalog, navigation, search/filter, advisory, and product-page systems.
-- Founder of Codex, a SaaS platform used by 60+ organizations and businesses across four Dutch cities.
-- Hands-on experience with PHP, TypeScript, Java, AWS CDK, Lambda, API Gateway, S3, SQS/SNS, DynamoDB, RDS/Aurora MySQL, GraphQL, REST, TDD, CI/CD, and software architecture.
-- Former Google Business Associate Intern focused on fraud detection, anti-abuse strategies, data analysis, and product policy.
-- Experienced mentor, coach, and technical contributor in product-oriented engineering environments.
+- Build backend systems for product catalog, navigation, search/filtering, advisory flows, and product pages in a large Dutch e-commerce environment.
+- Founded and operated Codex, a SaaS platform used by 60+ organizations and businesses across four Dutch cities.
+- Strong in cloud-native AWS engineering: serverless systems, GraphQL/REST APIs, event-driven processing, data migrations, and observability.
+- Combine senior engineering practice with product ownership, customer empathy, mentoring, and pragmatic architecture.
 
 ## Professional Experience
 
