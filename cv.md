@@ -17,9 +17,9 @@ Product-minded Senior Software Engineer with 10+ years of experience building ba
 
 ## Professional Experience
 
-### Senior Backend Developer - Coolblue
+### Backend Developer / Senior Backend Developer - Coolblue
 
-Senior | February 2022 - Present | Netherlands | [coolblue.nl](https://coolblue.nl)
+February 2022 - Present | Senior since 2024 | Netherlands | [coolblue.nl](https://coolblue.nl)
 
 - Build and scale backend services for product management, product catalog, navigation, search/filtering, advisory customer journeys, and product-page domains in a large Dutch e-commerce environment.
 - Develop cloud-native systems using AWS CDK, Lambda, API Gateway, S3, SQS/SNS, DynamoDB, RDS/Aurora MySQL, RDS Proxy, Redis/ElastiCache, OpenSearch, and related infrastructure.
